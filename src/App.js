@@ -46,7 +46,7 @@ function App() {
             <Prediction pred={pred}/>
          ) : (
             <div>
-               <h1>Drag Brain Picture Here</h1>
+               <h1>Drag CAPTCHA Image Here</h1>
                <Dropzone onDrop={onDrop}/>
             </div>
          )}

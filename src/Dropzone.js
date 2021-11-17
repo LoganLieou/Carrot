@@ -18,7 +18,7 @@ const Dropzone = ({ onDrop }) => {
           <p className="dropzone_content">Release to drop the files here</p>
         ) : (
           <p className="dropzone_content">
-            Drag and drop some brain picture here, or click to select files
+            Drag and drop some CAPTCHA picture here, or click to select files
           </p>
         )}
       </div>
