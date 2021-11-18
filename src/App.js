@@ -29,7 +29,7 @@ function App() {
       */
 
       // send asynchronus post request
-      fetch("http://localhost:5000/upload", {
+      fetch("https://6c30-2600-1700-1682-4a50-00-2e.ngrok.io/upload", {
          method: "POST",
          body: formData
       })
